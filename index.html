@@ -30,17 +30,17 @@
                 <li class="navigation-item">
                     <a href="blank.html">Контакты</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="blank.html">Войти</a>
-                </li>
             </ul>
+            <a href="#">
+                <img src="img/account.svg" width="36" height="36" alt="Кабинет пользователя">
+            </a>
         </nav>
     </header>
 
     <main class="main-index">
         <section class="promo">
             <h1 class="promo-title">Под парусом вместе</h1>
-            <img src="#" alt="Белая яхта на фоне голубого моря.">
+            <img src="img/main photo 1.jpg" width="1170" height="496" alt="Белая яхта на фоне голубого моря.">
             <a href="blank.html" class="button button-next">Смотреть далее</a>
             <button class="promo-gallery promo-gallery-prev" type="button">
                 <span class="visually-hidden">Назад</span>
@@ -60,7 +60,7 @@
             </nav>
 
         </section>
-        <section class="proporsals">
+        <section class="proporsals section">
             <h2 class="visually-hidden">Наши предложения</h2>
             <ul class="proporsal-list">
                 <li class="proporsal-item">
@@ -72,9 +72,9 @@
                     <a href="blank.html" class="proporsal-button">
                         <span class="visually-hidden">Читать дальше</span>
                     </a>
-                    <img src="#" alt="Мужчина смотрит с яхты в бинокль.">
+                    <img src="img/photo 2.jpg" height="292" width="600" alt="Мужчина смотрит с яхты в бинокль.">
                 </li>
-                <li class="proporsal-item">
+                <li class="proporsal-item proporsal-item-reverse">
                     <p class="proporsal-date">26 октября - 31 марта</p>
                     <h3 class="proporsal-title">Рожденные в воде</h3>
                     <p class="proporsal-description">
@@ -85,18 +85,20 @@
                     <a href="blank.html" class="proporsal-button">
                         <span class="visually-hidden">Читать дальше</span>
                     </a>
-                    <img src="#" alt="Девочки на яхте улыбаются и показывают пальцем в воду.">
+                    <img src="img/photo 3.jpg" height="252" width="500"
+                        alt="Девочки на яхте улыбаются и показывают пальцем в воду.">
                 </li>
             </ul>
         </section>
 
-        <section class="rent">
+        <section class="rent section">
             <h2 class="rent-title">Аренда яхты</h2>
             <ul class="boat-list">
                 <li class="boat-card">
                     <a href="#" class="boat-card-link">
                         <h3 class="boat-card-title">Катер Meidian 401</h3>
-                        <img src="#" alt="Катер Meidian 401." class="boat-card-image">
+                        <img src="img/photo-rent 1.jpg" width="310" height="141" alt="Катер Meidian 401."
+                            class="boat-card-image">
                         <p class="boat-card-description">Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью
                             11 человек</p>
                         <ul class="boat-card-features-list">
@@ -113,7 +115,8 @@
                 <li class="boat-card">
                     <a href="#" class="boat-card-link">
                         <h3 class="boat-card-title">Катер 50 Manhattan</h3>
-                        <img src="#" alt="Катер 50 Manhattan." class="boat-card-image">
+                        <img src="img/photo-rent 2.jpg" width="310" height="141" alt="Катер 50 Manhattan."
+                            class="boat-card-image">
                         <p class="boat-card-description">Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10
                             человек</p>
                         <ul class="boat-card-features-list">
@@ -130,7 +133,8 @@
                 <li class="boat-card">
                     <a href="#" class="boat-card-link">
                         <h3 class="boat-card-title">Катер Starfisher 34</h3>
-                        <img src="#" alt="Катер Starfisher 34." class="boat-card-image">
+                        <img src="img/photo-rent 3.jpg" width="310" height="141" alt="Катер Starfisher 34."
+                            class="boat-card-image">
                         <p class="boat-card-description">Моторная яхта длиной 11 метров и вместимостью до 8 человек</p>
                         <ul class="boat-card-features-list">
                             <li class="boat-card-feature">4 каюты</li>
@@ -145,16 +149,36 @@
             </ul>
         </section>
 
-        <section class="gallery">
+        <section class="gallery section">
             <h2 class="gallery-title">Почувствуй атмосферу</h2>
-            <img class="gallery-image" src="#" alt="Фотография из галереи 1.">
-            <button class="gallery-button gallery-prev" type="button">
-                <span class="visually-hidden">Предыдущее фото</span>
-            </button>
-            <video class="gallery-video video-active"></video>
-            <button class="gallery-button gallery-next" type="button">
-                <span class="visually-hidden">Следующее фото</span>
-            </button>
+            <ul>
+                <li class="gallery-item">
+                    <video poster="img/gallery photo 1.jpg" height="265" width="400">
+                        <source src="video-1.mp4" type="video/mp4">
+                    </video>
+                    <button class="gallery-button gallery-prev" type="button">
+                        <span class="visually-hidden">Предыдущее фото</span>
+                    </button>
+                </li>
+
+                <li class="gallery-item">
+                    <video poster="img/gallery photo 2.jpg" height="265" width="400">
+                        <source src="video-1.mp4" type="video/mp4">
+                    </video>
+                    <button class="gallery-button gallery-prev" type="button">
+                        <span class="visually-hidden">Предыдущее фото</span>
+                    </button>
+                </li>
+
+                <li class="gallery-item">
+                    <video poster="img/gallery photo 3.jpg" height="265" width="400">
+                        <source src="video-1.mp4" type="video/mp4">
+                    </video>
+                    <button class="gallery-button gallery-prev" type="button">
+                        <span class="visually-hidden">Предыдущее фото</span>
+                    </button>
+                </li>
+            </ul>
         </section>
 
         <section class="features">
@@ -163,7 +187,8 @@
                 Наш клуб является партнером одного из лучших 5-звездочных отелей города,Hyatt Regency. Мы обеспечиваем
                 лучшее обслуживание и сервис, чтобы сделать ваш отдых идеальным.
             </p>
-            <img src="#" alt="Стол, сервированный на борту яхты." class="features-image">
+            <img src="img/Rectangle 120.jpg" width="430" height="177" alt="Стол, сервированный на борту яхты."
+                class="features-image">
             <ul class="features-list">
                 <li class="feature-item">
                     <h3 class="feature-item-title">Изысканная кухня</h3>
@@ -187,61 +212,81 @@
         <section class="news-main">
             <h2 class="news-main-title">Новости</h2>
             <ul class="news-main-list">
-                <li class="news-main-item">
-                    <figure>
-                        <img src="#" alt="Иван Кулешов." class="news-main-image">
-                        <figcaption>Победитель регаты шкипер Иван Кулешов</figcaption>
-                    </figure>
-                    <h3 class="news-main-tite">Итоги регаты Sochi Race Week 2020</h3>
-                    <p class="news-main-abstract">Свыше сотни участников собирались на побережье Сочи, чтобы
-                        посоревноваться за главный приз. В
-                        соревнованиях приняли участие как новички, так и моряки, имеющие за плечами немалый опыт.
-                    </p>
-                    <p class="news-main-author">Артем Колесников</p>
-                    <time datetime="2020-06-20">20.06.2020</time>
-                    <img src="#" alt="Артем Колесников." class="news-main-author-image">
-                    <a href="blanc.html">
-                        <span class="visually-hidden">Читать далее</span>
-                    </a>
+                <li class="news-main-item news-item-big">
+                    <article class="news-article">
+                        <figure>
+                            <img src="img/news-photo 1.jpg" width="770" height="378" alt="Иван Кулешов."
+                                class="news-main-image">
+                            <figcaption>Победитель регаты шкипер Иван Кулешов</figcaption>
+                        </figure>
+                        <h3 class="news-main-tite">Итоги регаты Sochi Race Week 2020</h3>
+                        <p class="news-main-abstract">Свыше сотни участников собирались на побережье Сочи, чтобы
+                            посоревноваться за главный приз. В
+                            соревнованиях приняли участие как новички, так и моряки, имеющие за плечами немалый опыт.
+                        </p>
+                        <footer class="news-article-footer">
+                            <p class="news-main-author">Артем Колесников</p>
+                            <time datetime="2020-06-20">20.06.2020</time>
+                            <img src="img/author-photo - 1.jpg" width="60" height="60" alt="Артем Колесников."
+                                class="news-main-author-image">
+                            <a href="blanc.html">
+                                <span class="visually-hidden">Читать далее</span>
+                            </a>
+                        </footer>
+                    </article>
                 </li>
 
                 <li class="news-main-item">
-                    <figure>
-                        <img src="#" alt=" Golsling 3.15." class="news-main-image">
-                        <figcaption>Участник выставки – яхта Golsling 3.15</figcaption>
-                    </figure>
-                    <h3 class="news-main-tite">Выставка Sochi Boat Show</h3>
-                    <p class="news-main-abstract">Выставка катеров и яхт Sochi Boat Show состоится с 19 по 29 июля 2020
-                        года в нашем яхт-клубе. В программе будет ...
-                    </p>
-                    <p class="news-main-author">Денис Иванов</p>
-                    <time datetime="2020-06-15">15.06.2020</time>
-                    <img src="#" alt="Денис Иванов" class="news-main-author-image">
-                    <a href="blanc.html">
-                        <span class="visually-hidden">Читать далее</span>
-                    </a>
+                    <article class="news-article">
+                        <figure>
+                            <img src="img/news-photo 2.jpg" width="370" height="130" alt=" Golsling 3.15."
+                                class="news-main-image">
+                            <figcaption>Участник выставки – яхта Golsling 3.15</figcaption>
+                        </figure>
+                        <h3 class="news-main-tite">Выставка Sochi Boat Show</h3>
+                        <p class="news-main-abstract">Выставка катеров и яхт Sochi Boat Show состоится с 19 по 29 июля
+                            2020
+                            года в нашем яхт-клубе. В программе будет ...
+                        </p>
+                        <footer class="news-article-footer">
+                            <p class="news-main-author">Денис Иванов</p>
+                            <time datetime="2020-06-15">15.06.2020</time>
+                            <img src="img/author-photo 2.jpg" width="60" height="60" alt="Денис Иванов"
+                                class="news-main-author-image">
+                            <a href="blanc.html">
+                                <span class="visually-hidden">Читать далее</span>
+                            </a>
+                        </footer>
+                    </article>
                 </li>
 
                 <li class="news-main-item">
-                    <figure>
-                        <img src="#" alt="Участница регаты 2019 Ирина Петрова." class="news-main-image">
-                        <figcaption>Участница регаты 2019 Ирина Петрова</figcaption>
-                    </figure>
-                    <h3 class="news-main-tite">Регате быть!</h3>
-                    <p class="news-main-abstract">Из-за карантина весенние регаты отменили, но мы надеялись, что летние
-                        соревнования состоятся. С радостью сообщаем, что летняя ...
-                    </p>
-                    <p class="news-main-author">Денис Иванов</p>
-                    <time datetime="2020-06-01">01.06.2020</time>
-                    <img src="#" alt="Денис Иванов." class="news-main-author-image">
-                    <a href="blanc.html">
-                        <span class="visually-hidden">Читать далее</span>
-                    </a>
+                    <article class="news-article">
+                        <figure>
+                            <img src="img/news-photo 3.jpg" width="370" height="130"
+                                alt="Участница регаты 2019 Ирина Петрова." class="news-main-image">
+                            <figcaption>Участница регаты 2019 Ирина Петрова</figcaption>
+                        </figure>
+                        <h3 class="news-main-tite">Регате быть!</h3>
+                        <p class="news-main-abstract">Из-за карантина весенние регаты отменили, но мы надеялись, что
+                            летние
+                            соревнования состоятся. С радостью сообщаем, что летняя ...
+                        </p>
+                        <footer class="news-article-footer">
+                            <p class="news-main-author">Денис Иванов</p>
+                            <time datetime="2020-06-01">01.06.2020</time>
+                            <img src="img/author-photo 2.jpg" width="60" height="60" alt="Денис Иванов."
+                                class="news-main-author-image">
+                            <a href="blanc.html">
+                                <span class="visually-hidden">Читать далее</span>
+                            </a>
+                        </footer>
+                    </article>
                 </li>
             </ul>
         </section>
 
-        <section class="calendar">
+        <section class="calendar section">
             <h2 class="calendar-title">Календарь соревнований, январь 2021</h2>
             <div class="calendar-table">
                 <ul class="calendar-table-row">
@@ -316,13 +361,13 @@
                     данных</label>
                 <button type="submit" class="button">Отправить</button>
             </form>
-            <img src="#" alt="Много яхт на причале.">
+            <img src="img/photo form.jpg" width="600" height="567" alt="Много яхт на причале.">
         </section>
 
         <section class="contacts">
             <h2 class="contacts-title">Контакты</h2>
             <address class="contacts-address">
-                <img src="#" alt="местонахождение яхт-клуба.">
+                <img src="img/map 1.png" width="670" height="351" alt="местонахождение яхт-клуба.">
                 <ul class="contacts-list">
                     <li class="contacts-item"><b>Адрес:</b> г. Соч ул. Бзугу, 9</li>
                     <li class="contacts-item"><b>Телефон:</b> 8 (622) 62-05-63</li>
@@ -344,7 +389,7 @@
     </main>
 
     <footer class="page-footer">
-        <img src="#" alt="логотип яхт=клуба." class="footer-logo">
+        <img src="img/logotype.svg" width="100" height="106" alt="логотип яхт=клуба." class="footer-logo">
         <p class="footer-copyright">Политика конфиденциальности</p>
         <p class="footer-copyright">Яхтклуб ©2020 Все права защищены</p>
 
