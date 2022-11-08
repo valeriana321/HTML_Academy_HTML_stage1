@@ -1,3 +1,416 @@
-body {
-    background-color: tomato;
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/notosans.woff2") format("woff2"),
+        url("../fonts/FontsFree-Net-NotoSans-SemiBoldItalic.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Italic', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/notosansitalic.woff2") format("woff2"),
+        url("../fonts/notosansitalic.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans SemiBold', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    src: url("../fonts/NotoSansSemiBold.woff2") format("woff2"),
+        url("../fonts/NotoSansSemiBold.woff") format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans SemiBold Italic', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    src: url("../fonts/FontsFree-Net-NotoSans-SemiBoldItalic.woff2") format("woff2"),
+        url("../fonts/FontsFree-Net-NotoSans-SemiBoldItalic.woff") format("woff");
+    font-display: swap;
+}
+
+.page-body {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283C54;
+    background-color: #FDFDFF;
+}
+
+/* img {
+    width: 100%;
+    height: auto;
+} */
+
+
+.visually-hidden {
+    display: none;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+ul[class*="list"] {
+    list-style-type: none;
+}
+
+/* Header navigation */
+
+
+.navigation-item a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #163152;
+}
+
+/* Promo */
+
+.promo-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.promo-title .promo-title-white {
+    color: #FDFDFF;
+}
+
+.button-next {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FDFDFF;
+}
+
+
+.promo-navigation-item a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #163152;
+}
+
+/* Proporsal */
+
+
+.proporsal-date {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #163152;
+}
+
+.proporsal-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+/* Rent */
+
+
+.boat-card a {
+    text-decoration: none;
+    color: #163152;
+}
+
+.boat-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.boat-card-description {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.boat-card-features-list {
+    list-style-type: none;
+}
+
+.boat-card-feature {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.boat-card-price {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* Features */
+
+.feature-item-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Main news */
+
+.news-card-image figcaption {
+    color: rgba(40, 60, 84, 0.5);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.news-card-tite {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.news-abstract {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.news-card-author {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.news-card-footer time {
+    color: rgba(40, 60, 84, 0.5);
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.news-card-footer img {
+    border-radius: 50%;
+}
+
+/* Calendar */
+.calendar-table {
+    display: table;
+}
+
+.calendar-table-row {
+    list-style-type: none;
+    display: table-row;
+}
+
+.calendar-table-row li {
+    display: table-cell;
+}
+
+.calendar-table ul:first-child {
+    display: table-header-group;
+    font-weight: 600;
+}
+
+/* Registration */
+
+.registration p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.form-label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.permit-checkbox-label {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.registration-form button {
+    background: #00C6BD;
+    width: 430px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FDFDFF;
+}
+
+/* Contacts */
+.contacts-item {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/* Footer */
+
+.footer-copyright {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #283C54;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Breadcrumbs */
+
+.breadcrumbs-item {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.breadcrumbs-item a {
+    text-decoration: none;
+    color: #163152;
+}
+
+.breadcrumbs-active {
+    color: rgba(22, 49, 82, 0.4);
+}
+
+/* News article */
+
+.article-date {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.article-title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+}
+
+.article-info {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.article-intro {
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.similar-articles h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.similar-atricles-item {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.similar-atricles-item a {
+    text-decoration: none;
+    color: #163152;
+}
+
+.article-important {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.article-text p {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.article-text i {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.atricle-text-important {
+    background-color: #d9fcf8;
+}
+
+.article-figure figcaption {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(40, 60, 84, 0.5);
+}
+
+.article-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #009A93;
+}
+
+.article-blockquote {
+    background-color: #F5F5FA;
+}
+
+.article-blockquote p {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.article-blockquote cite {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.similar-articles a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #283C54;
+}
+
+/* article footer */
+
+.tags-item a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 140%;
+    color: #283C54;
+    border: 1px solid #00C6BD;
 }

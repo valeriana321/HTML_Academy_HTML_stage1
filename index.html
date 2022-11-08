@@ -5,48 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;1,400&display=swap"
-        rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <title>Яхт-клуб "Под парусом"</title>
 </head>
 
-<body>
+<body class="page-body">
     <header class="page-header">
-        <a>
-            <img src=# alt="Логотип яхт-клуба">
-        </a>
-        <nav class="navigation">
-            <ul class="navigation-list">
-                <li class="navigation-item">
-                    <a href="blank.html">Наш клуб</a>
-                </li>
-                <li class="navigation-item">
-                    <a href="blank.html">Команда</a>
-                </li>
-                <li class="navigation-item">
-                    <a href="blank.html">Обучение</a>
-                </li>
-                <li class="navigation-item">
-                    <a href="news.html">Новости</a>
-                </li>
-                <li class="navigation-item">
-                    <a href="blank.html">Контакты</a>
-                </li>
-            </ul>
-            <a href="#">
-                <img src="img/account.svg" width="36" height="36" alt="Кабинет пользователя">
-            </a>
-        </nav>
+        <div class="header-container">
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="blank.html">Наш клуб</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="blank.html">Команда</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="blank.html">Обучение</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="news.html">Новости</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="blank.html">Контакты</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <img src="img/account.svg" width="36" height="36" alt="Кабинет пользователя">
+                </a>
+            </nav>
+        </div>
     </header>
 
     <main class="main-index">
         <section class="promo">
-            <h1 class="promo-title">Под парусом вместе</h1>
+            <h1 class="promo-title">Под парусом <br> <span class="promo-title-white">вместе</span></h1>
             <img src="img/main photo 1.jpg" width="1170" height="496" alt="Белая яхта на фоне голубого моря.">
             <a href="blank.html" class="button button-next">Смотреть далее</a>
             <button class="promo-gallery promo-gallery-prev" type="button">
@@ -72,7 +67,7 @@
             <ul class="proporsal-list">
                 <li class="proporsal-item">
                     <p class="proporsal-date">20 октября - 19 апреля</p>
-                    <h3 class="proporsal-title">Стань частью команды</h3>
+                    <h3 class="proporsal-title title">Стань частью команды</h3>
                     <p class="proporsal-description">
                         Хотите попробовать себя в яхтинге? Наш клуб готов стать их воротами в морскую культуру!
                     </p>
@@ -83,7 +78,7 @@
                 </li>
                 <li class="proporsal-item proporsal-item-reverse">
                     <p class="proporsal-date">26 октября - 31 марта</p>
-                    <h3 class="proporsal-title">Рожденные в воде</h3>
+                    <h3 class="proporsal-title title">Рожденные в воде</h3>
                     <p class="proporsal-description">
                         Подарите вашим детям чувство свободы, независимости, а также вкус жизни. Мир ярких эмоций и
                         неописуемых
@@ -99,11 +94,11 @@
         </section>
 
         <section class="rent section">
-            <h2 class="rent-title">Аренда яхты</h2>
+            <h2 class="rent-title title">Аренда яхты</h2>
             <ul class="boat-list">
                 <li class="boat-card">
                     <a href="#" class="boat-card-link">
-                        <h3 class="boat-card-title">Катер Meidian 401</h3>
+                        <h3 class="boat-card-title title">Катер Meidian 401</h3>
                         <img src="img/photo-rent 1.jpg" width="310" height="141" alt="Катер Meidian 401."
                             class="boat-card-image">
                         <p class="boat-card-description">Яхта 401 длиной 12.5 метров и шириной 4.2 метра, вместимостью
@@ -121,7 +116,7 @@
 
                 <li class="boat-card">
                     <a href="#" class="boat-card-link">
-                        <h3 class="boat-card-title">Катер 50 Manhattan</h3>
+                        <h3 class="boat-card-title  title">Катер 50 Manhattan</h3>
                         <img src="img/photo-rent 2.jpg" width="310" height="141" alt="Катер 50 Manhattan."
                             class="boat-card-image">
                         <p class="boat-card-description">Двухпалубное судно VIP уровня длиной 20 метров, вместимостью 10
@@ -139,7 +134,7 @@
 
                 <li class="boat-card">
                     <a href="#" class="boat-card-link">
-                        <h3 class="boat-card-title">Катер Starfisher 34</h3>
+                        <h3 class="boat-card-title  title">Катер Starfisher 34</h3>
                         <img src="img/photo-rent 3.jpg" width="310" height="141" alt="Катер Starfisher 34."
                             class="boat-card-image">
                         <p class="boat-card-description">Моторная яхта длиной 11 метров и вместимостью до 8 человек</p>
@@ -157,8 +152,8 @@
         </section>
 
         <section class="gallery section">
-            <h2 class="gallery-title">Почувствуй атмосферу</h2>
-            <ul>
+            <h2 class="gallery-title  title">Почувствуй атмосферу</h2>
+            <ul class="gallery-list">
                 <li class="gallery-item">
                     <video poster="img/gallery photo 1.jpg" height="265" width="400">
                         <source src="video-1.mp4" type="video/mp4">
@@ -189,7 +184,7 @@
         </section>
 
         <section class="features">
-            <h2 class="features-title">Кают-компания</h2>
+            <h2 class="features-title  title">Кают-компания</h2>
             <p class="feature-description">
                 Наш клуб является партнером одного из лучших 5-звездочных отелей города,Hyatt Regency. Мы обеспечиваем
                 лучшее обслуживание и сервис, чтобы сделать ваш отдых идеальным.
@@ -216,26 +211,26 @@
             </ul>
         </section>
 
-        <section class="news-main">
-            <h2 class="news-main-title">Новости</h2>
-            <ul class="news-main-list">
-                <li class="news-main-item news-item-big">
+        <section class="news">
+            <h2 class="news-title  title">Новости</h2>
+            <ul class="news-list">
+                <li class="news-card news-card-big">
                     <article class="news-article">
-                        <figure>
+                        <figure class="news-card-image">
                             <img src="img/news-photo 1.jpg" width="770" height="378" alt="Иван Кулешов."
-                                class="news-main-image">
+                                class="news-image">
                             <figcaption>Победитель регаты шкипер Иван Кулешов</figcaption>
                         </figure>
-                        <h3 class="news-main-tite">Итоги регаты Sochi Race Week 2020</h3>
-                        <p class="news-main-abstract">Свыше сотни участников собирались на побережье Сочи, чтобы
+                        <h3 class="news-card-tite">Итоги регаты Sochi Race Week 2020</h3>
+                        <p class="news-abstract">Свыше сотни участников собирались на побережье Сочи, чтобы
                             посоревноваться за главный приз. В
                             соревнованиях приняли участие как новички, так и моряки, имеющие за плечами немалый опыт.
                         </p>
-                        <footer class="news-article-footer">
-                            <p class="news-main-author">Артем Колесников</p>
+                        <footer class="news-card-footer">
+                            <p class="news-card-author">Артем Колесников</p>
                             <time datetime="2020-06-20">20.06.2020</time>
                             <img src="img/author-photo - 1.jpg" width="60" height="60" alt="Артем Колесников."
-                                class="news-main-author-image">
+                                class="news-card-author-image">
                             <a href="blanc.html">
                                 <span class="visually-hidden">Читать далее</span>
                             </a>
@@ -243,23 +238,23 @@
                     </article>
                 </li>
 
-                <li class="news-main-item">
+                <li class="news-card">
                     <article class="news-article">
-                        <figure>
+                        <figure class="news-card-image">
                             <img src="img/news-photo 2.jpg" width="370" height="130" alt=" Golsling 3.15."
-                                class="news-main-image">
+                                class="news-image">
                             <figcaption>Участник выставки – яхта Golsling 3.15</figcaption>
                         </figure>
-                        <h3 class="news-main-tite">Выставка Sochi Boat Show</h3>
-                        <p class="news-main-abstract">Выставка катеров и яхт Sochi Boat Show состоится с 19 по 29 июля
+                        <h3 class="news-card-tite">Выставка Sochi Boat Show</h3>
+                        <p class="news-abstract">Выставка катеров и яхт Sochi Boat Show состоится с 19 по 29 июля
                             2020
                             года в нашем яхт-клубе. В программе будет ...
                         </p>
-                        <footer class="news-article-footer">
-                            <p class="news-main-author">Денис Иванов</p>
+                        <footer class="news-card-footer">
+                            <p class="news-card-author">Денис Иванов</p>
                             <time datetime="2020-06-15">15.06.2020</time>
                             <img src="img/author-photo 2.jpg" width="60" height="60" alt="Денис Иванов"
-                                class="news-main-author-image">
+                                class="news-card-author-image">
                             <a href="blanc.html">
                                 <span class="visually-hidden">Читать далее</span>
                             </a>
@@ -267,23 +262,23 @@
                     </article>
                 </li>
 
-                <li class="news-main-item">
+                <li class="news-card">
                     <article class="news-article">
-                        <figure>
+                        <figure class="news-card-image">
                             <img src="img/news-photo 3.jpg" width="370" height="130"
-                                alt="Участница регаты 2019 Ирина Петрова." class="news-main-image">
+                                alt="Участница регаты 2019 Ирина Петрова." class="news-image">
                             <figcaption>Участница регаты 2019 Ирина Петрова</figcaption>
                         </figure>
-                        <h3 class="news-main-tite">Регате быть!</h3>
-                        <p class="news-main-abstract">Из-за карантина весенние регаты отменили, но мы надеялись, что
+                        <h3 class="news-card-tite">Регате быть!</h3>
+                        <p class="news-abstract">Из-за карантина весенние регаты отменили, но мы надеялись, что
                             летние
                             соревнования состоятся. С радостью сообщаем, что летняя ...
                         </p>
-                        <footer class="news-article-footer">
-                            <p class="news-main-author">Денис Иванов</p>
+                        <footer class="news-card-footer">
+                            <p class="news-card-author">Денис Иванов</p>
                             <time datetime="2020-06-01">01.06.2020</time>
                             <img src="img/author-photo 2.jpg" width="60" height="60" alt="Денис Иванов."
-                                class="news-main-author-image">
+                                class="news-card-author-image">
                             <a href="blanc.html">
                                 <span class="visually-hidden">Читать далее</span>
                             </a>
@@ -294,10 +289,10 @@
         </section>
 
         <section class="calendar section">
-            <h2 class="calendar-title">Календарь соревнований, январь 2021</h2>
+            <h2 class="calendar-title  title">Календарь соревнований, январь 2021</h2>
             <div class="calendar-table">
                 <ul class="calendar-table-row">
-                    <li>название соревнований</li>
+                    <li>Название соревнований</li>
                     <li>Дата проведения</li>
                     <li>Учавствующие классы</li>
                     <li>Категория</li>
@@ -342,24 +337,24 @@
         </section>
 
         <section class="registration">
-            <h2 class="registration-title">
+            <h2 class="registration-title  title">
                 Станьте участником регаты
                 Sochi Race Week 2021
             </h2>
             <p>Заполните форму ниже и мы свяжемся с вами в ближайшее время</p>
             <form class="registration-form" action="https://echo.htmlacademy.ru/" method="post">
                 <p class="registration-form-name">
-                    <label class="form-label" for="registration-name"></label>
+                    <label class="form-label" for="registration-name">Имя</label>
                     <input type="text" id="registration-name" name="registration-name" placeholder="Сергей">
                 </p>
 
                 <p class="registration-form-phone">
-                    <label class="form-label" for="registration-phone"></label>
+                    <label class="form-label" for="registration-phone">Телефон</label>
                     <input type="text" id="registration-phone" name="registration-phone" placeholder="+7 999 555 66 77">
                 </p>
 
                 <p class="registration-form-email">
-                    <label class="form-label" for="registration-email"></label>
+                    <label class="form-label" for="registration-email">E-mail</label>
                     <input type="text" id="registration-email" name="registration-email" placeholder="Example@mail.com">
                 </p>
 
@@ -372,7 +367,7 @@
         </section>
 
         <section class="contacts">
-            <h2 class="contacts-title">Контакты</h2>
+            <h2 class="contacts-title title">Контакты</h2>
             <address class="contacts-address">
                 <img src="img/map 1.png" width="670" height="351" alt="местонахождение яхт-клуба.">
                 <ul class="contacts-list">
@@ -400,45 +395,48 @@
         <p class="footer-copyright">Политика конфиденциальности</p>
         <p class="footer-copyright">Яхтклуб ©2020 Все права защищены</p>
 
-        <div class="footer-company footer-column">
-            <h3 class="footer-title">Компания</h3>
-            <ul class="footer-list">
-                <li class="footer-item"><a href="#">О нас</a></li>
-                <li class="footer-item"><a href="#">Команда</a></li>
-                <li class="footer-item"><a href="#">Новости</a></li>
-                <li class="footer-item"><a href="#">Блог</a></li>
-                <li class="footer-item"><a href="#">Галерея</a></li>
-            </ul>
-        </div>
-        <div class="footer-about footer-column">
-            <h3 class="footer-title">Яхт-клуб</h3>
-            <ul class="footer-list">
-                <li class="footer-item"><a href="#">Правила</a></li>
-                <li class="footer-item"><a href="#">Стоимость</a></li>
-                <li class="footer-item"><a href="#">Анкета</a></li>
-                <li class="footer-item"><a href="#">FAQ</a></li>
-                <li class="footer-item"><a href="#">Партнеры</a></li>
-            </ul>
-        </div>
-        <div class="footer-service footer-column">
-            <h3 class="footer-title">Услуги</h3>
-            <ul class="footer-list">
-                <li class="footer-item"><a href="#">Аренда яхты</a></li>
-                <li class="footer-item"><a href="#">Свадьба на яхте</a></li>
-                <li class="footer-item"><a href="#">День рождения</a></li>
-                <li class="footer-item"><a href="#">Бизнес-встречи</a></li>
-                <li class="footer-item"><a href="#">Прогулки</a></li>
-            </ul>
-        </div>
-        <div class="footer-competitions footer-column">
-            <h3 class="footer-title">Регаты</h3>
-            <ul class="footer-list">
-                <li class="footer-item"><a href="#"> Корпоративные регаты</a></li>
-                <li class="footer-item"><a href="#">Календарь мероприятий</a></li>
-                <li class="footer-item"><a href="#">тать участником</a></li>
-                <li class="footer-item"><a href="#">Результаты регат</a></li>
-                <li class="footer-item"><a href="#">Обучение</a></li>
-            </ul>
+        <div class="footer-table">
+
+            <div class="footer-company footer-column">
+                <h3 class="footer-title">Компания</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#">О нас</a></li>
+                    <li class="footer-item"><a href="#">Команда</a></li>
+                    <li class="footer-item"><a href="#">Новости</a></li>
+                    <li class="footer-item"><a href="#">Блог</a></li>
+                    <li class="footer-item"><a href="#">Галерея</a></li>
+                </ul>
+            </div>
+            <div class="footer-about footer-column">
+                <h3 class="footer-title">Яхт-клуб</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#">Правила</a></li>
+                    <li class="footer-item"><a href="#">Стоимость</a></li>
+                    <li class="footer-item"><a href="#">Анкета</a></li>
+                    <li class="footer-item"><a href="#">FAQ</a></li>
+                    <li class="footer-item"><a href="#">Партнеры</a></li>
+                </ul>
+            </div>
+            <div class="footer-service footer-column">
+                <h3 class="footer-title">Услуги</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#">Аренда яхты</a></li>
+                    <li class="footer-item"><a href="#">Свадьба на яхте</a></li>
+                    <li class="footer-item"><a href="#">День рождения</a></li>
+                    <li class="footer-item"><a href="#">Бизнес-встречи</a></li>
+                    <li class="footer-item"><a href="#">Прогулки</a></li>
+                </ul>
+            </div>
+            <div class="footer-competitions footer-column">
+                <h3 class="footer-title">Регаты</h3>
+                <ul class="footer-list">
+                    <li class="footer-item"><a href="#"> Корпоративные регаты</a></li>
+                    <li class="footer-item"><a href="#">Календарь мероприятий</a></li>
+                    <li class="footer-item"><a href="#">тать участником</a></li>
+                    <li class="footer-item"><a href="#">Результаты регат</a></li>
+                    <li class="footer-item"><a href="#">Обучение</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
